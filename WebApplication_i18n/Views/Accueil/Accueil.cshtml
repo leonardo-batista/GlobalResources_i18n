@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Accueil</title>
+</head>
+<body>
+    <div> 
+        <br />
+        <h2>@Resources.Traduire.Accueil</h2>
+        <br />
+        <br />
+        <input type="button" value="@Resources.Traduire.Francais">
+        <br />
+        <br />
+        <input type="button" value="@Resources.Traduire.Anglais">
+<br />
+@Url.Action("Idiome", "Accueil", new { idiome = "en" })
+
+<br />
+
+@Url.Action("Idiome", "Accueil", new { idiome = "fr" })
+
+<br />
+
+    </div>
+</body>
+</html>
