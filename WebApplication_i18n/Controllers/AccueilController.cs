@@ -26,5 +26,10 @@ namespace WebApplication_i18n.Controllers
             return RedirectToAction("Accueil", "Accueil");
 
         }
+
+        public ActionResult AutrePage()
+        {
+            return View();
+        }
     }
 }

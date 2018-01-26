@@ -70,6 +70,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Actualiser.
+        /// </summary>
+        internal static string Actualiser {
+            get {
+                return ResourceManager.GetString("Actualiser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Anglais.
         /// </summary>
         internal static string Anglais {
@@ -79,11 +88,76 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Autre Page.
+        /// </summary>
+        internal static string AutrePage {
+            get {
+                return ResourceManager.GetString("AutrePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Certificat.
+        /// </summary>
+        internal static string Certificat {
+            get {
+                return ResourceManager.GetString("Certificat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favoris.
+        /// </summary>
+        internal static string Favoris {
+            get {
+                return ResourceManager.GetString("Favoris", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Français.
         /// </summary>
         internal static string Francais {
             get {
                 return ResourceManager.GetString("Francais", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mot de passe.
+        /// </summary>
+        internal static string MotDePasse {
+            get {
+                return ResourceManager.GetString("MotDePasse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Petit Texte.
+        /// </summary>
+        internal static string PetitTexte {
+            get {
+                return ResourceManager.GetString("PetitTexte", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Salut =)
+        ///Comment allez-vous? J&apos;espère vous allez bien !!!
+        ///Bonne journée / Bonne soirée =).
+        /// </summary>
+        internal static string Texte {
+            get {
+                return ResourceManager.GetString("Texte", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Utilisateur.
+        /// </summary>
+        internal static string Utilisateur {
+            get {
+                return ResourceManager.GetString("Utilisateur", resourceCulture);
             }
         }
     }

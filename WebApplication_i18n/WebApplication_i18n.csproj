@@ -118,6 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Lis_Moi__Read_Me.txt" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -128,10 +129,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Traduire.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Traduire.EN-US.designer.cs">
+    <Compile Include="App_GlobalResources\Traduire.en-US1.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Traduire.EN-US.resx</DependentUpon>
+      <DependentUpon>Traduire.en-US.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccueilController.cs" />
@@ -147,6 +148,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Accueil\Accueil.cshtml" />
+    <Content Include="Views\Accueil\AutrePage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -165,9 +167,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\Traduire.EN-US.resx">
+    <Content Include="App_GlobalResources\Traduire.en-US.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Traduire.EN-US.designer.cs</LastGenOutput>
+      <LastGenOutput>Traduire.en-US1.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>

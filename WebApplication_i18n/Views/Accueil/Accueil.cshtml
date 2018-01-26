@@ -9,21 +9,19 @@
     <div> 
         <br />
         <h2>@Resources.Traduire.Accueil</h2>
+        <h3>@Resources.Traduire.Actualiser</h3>
+        <h3>@Resources.Traduire.Certificat</h3>
+        <h3>@Resources.Traduire.Favoris</h3>
+        <h3>@Resources.Traduire.MotDePasse</h3>
+        <h3>@Resources.Traduire.Utilisateur</h3>
+        <br />
+        <input type="button" value="@Resources.Traduire.Francais" onclick="location.href='@Url.Action("Idiome", "Accueil", new { idiome = "fr-FR" })'"/>
         <br />
         <br />
-        <input type="button" value="@Resources.Traduire.Francais">
+        <input type="button" value="@Resources.Traduire.Anglais" onclick="location.href='@Url.Action("Idiome", "Accueil", new { idiome = "en-US" })'" />
         <br />
         <br />
-        <input type="button" value="@Resources.Traduire.Anglais">
-<br />
-@Url.Action("Idiome", "Accueil", new { idiome = "en" })
-
-<br />
-
-@Url.Action("Idiome", "Accueil", new { idiome = "fr" })
-
-<br />
-
+        <input type="button" value="@Resources.Traduire.AutrePage" onclick="location.href='@Url.Action("AutrePage", "Accueil")'" />
     </div>
 </body>
 </html>

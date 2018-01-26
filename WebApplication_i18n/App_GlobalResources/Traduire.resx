@@ -120,10 +120,36 @@
   <data name="Accueil" xml:space="preserve">
     <value>Accueil</value>
   </data>
+  <data name="Actualiser" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
   <data name="Anglais" xml:space="preserve">
     <value>Anglais</value>
   </data>
+  <data name="AutrePage" xml:space="preserve">
+    <value>Autre Page</value>
+  </data>
+  <data name="Certificat" xml:space="preserve">
+    <value>Certificat</value>
+  </data>
+  <data name="Favoris" xml:space="preserve">
+    <value>Favoris</value>
+  </data>
   <data name="Francais" xml:space="preserve">
     <value>Français</value>
+  </data>
+  <data name="MotDePasse" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="PetitTexte" xml:space="preserve">
+    <value>Petit Texte</value>
+  </data>
+  <data name="Texte" xml:space="preserve">
+    <value>Salut =)
+Comment allez-vous? J'espère vous allez bien !!!
+Bonne journée / Bonne soirée =)</value>
+  </data>
+  <data name="Utilisateur" xml:space="preserve">
+    <value>Utilisateur</value>
   </data>
 </root>

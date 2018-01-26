@@ -31,12 +31,11 @@ namespace WebApplication_i18n
                 if (ci == null)
                 {
                     //Sets default culture to english invariant
-                    string langName = "fr";
+                    string langName = "fr-FR";
 
                     //Try to get values from Accept lang HTTP header
                     if (HttpContext.Current.Request.UserLanguages != null && HttpContext.Current.Request.UserLanguages.Length != 0)
                     {
-                        //Gets accepted list 
                         langName = HttpContext.Current.Request.UserLanguages[0].Substring(0, 2);
                     }
 
